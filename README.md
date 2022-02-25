@@ -7,18 +7,7 @@ A school club I'm in has an unofficial Discord, and they frequently have to post
 My eventual goal with this project is for it to be able to support as many features as possible that Canvas announcements have, without being cluttered.
 
 ## Compatibility list
-The following **WILL** display as expected:
-- Regular text
-- Bold text
-- Italics text
-- Strikethrough text
-- Horizontal lines
-
-The following **WILL NOT** display:
-- Tables
-- Images
-- Math equations
-- Most embeds
+As more apps are tested, this list will inevitably get longer. Please see `COMPATIBILITY.md`.
 
 ## Setup
 1. Rename `config.replace.json` to `config.json`
