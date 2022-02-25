@@ -1,5 +1,5 @@
 {
-    "canvasFeed": "",
-    "webhookUrl": ""
+    "canvasFeed": "[put-canvas-feed-here]",
+    "webhookUrl": "[put-webhook-url-here]"
 }
 
