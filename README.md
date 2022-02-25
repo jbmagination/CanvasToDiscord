@@ -40,3 +40,4 @@ The following **WILL NOT** display:
 * Support Canvas API
 * Support multiple Canvas announcement feeds
 * Support Discord bot instead of webhook
+* Support Canvas reply feeds
