@@ -1,0 +1,19 @@
+{
+  "name": "canvastodiscord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JBMagination",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "@types/turndown": "^5.0.1",
+    "@types/underscore": "^1.11.4",
+    "discord.js": "^13.6.0",
+    "rss-parser": "^3.12.0",
+    "turndown": "^7.1.1",
+    "underscore": "^1.13.2"
+  }
+}

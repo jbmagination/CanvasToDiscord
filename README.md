@@ -21,8 +21,22 @@ The following **WILL NOT** display:
 - Most embeds
 
 ## Setup
-[to write]
+1. Rename `config.replace.json` to `config.json`
+2. Go to your Canvas page of choice
+3. Under the "Announcements" tab, open "External Feeds"
+4. Copy the link for "RSS Feed"
+5. Put the link into `"[put-canvas-feed-here]"`
+6. Go to your Discord channel's settings
+7. Under the "Integrations" tab, either...
+    a. press the "Create Webhook" button
+    b. choose "View Webhooks", then press the "New Webhook" button
+8. Copy the webhook URL
+9. Put the URL into `"[put-webhook-url-here]"`
+10. `npm ci`
+11. `tsc`
+12. `node index`
 
 ## Plans
 * Support Canvas API
+* Support multiple Canvas announcement feeds
 * Support Discord bot instead of webhook
