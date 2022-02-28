@@ -4,7 +4,7 @@ A webhook that automatically posts Canvas announcements to Discord.
 ## Why?
 A school club I'm in has an unofficial Discord, and they frequently have to post new Canvas announcements-- which sparked the idea. They thought it'd be helpful, so I made the first proof of concept in an hour, and polished said concept in five hours.
 
-My eventual goal with this project is for it to be able to support as many features as possible that Canvas announcements have, without being cluttered.
+My eventual goal with this project is for it to be able to support as many of Canvas's features as possible without being cluttered.
 
 ## Compatibility list
 As more apps are tested, this list will inevitably get longer. Please see `COMPATIBILITY.md`.
