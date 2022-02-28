@@ -1,4 +1,6 @@
 # Compatibility List
+Anything **not** on this list is **untested**.
+
 ## Built-in Canvas features
 The following **WILL** display as expected:
 - Regular text
@@ -14,8 +16,6 @@ The following **WILL NOT** display, but has a fallback:
 - Most embeds
 
 ## Apps
-Anything not on this list is untested.
-
 The following **WILL** display as expected:
 - Commons Favorites
 - Google Hangouts Meet
