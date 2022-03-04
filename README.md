@@ -18,7 +18,7 @@ A school club I'm in has an unofficial Discord, and they frequently have to post
 8. Copy the webhook URL
 9. Put the URL into `[put-webhook-url-here]`
 10. `npm ci`
-11. `tsc`
+11. `cd out`
 12. `node index`
 
 Please be aware that not everything will work; see `COMPATIBILITY.md` for a rundown.
