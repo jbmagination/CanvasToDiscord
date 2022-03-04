@@ -32,7 +32,6 @@ Please be aware that not everything will work; see `COMPATIBILITY.md` for a rund
 - [ ] Support discussions
 - [ ] Support quizzes
 - [ ] Support assignments
-- [ ] Support grades
 - [ ] Support outcomes
 - [ ] Support people
 - [ ] Support BigBlueButton conferences
