@@ -1,6 +1,6 @@
 # Canvas to Discord
 ## What?
-This project currently posts Canvas announcements to Discord. My eventual goal with this project is for it to be able to support as many of Canvas's features as possible without being cluttered.
+This project takes new announcements from a [Canvas LMS](https://github.com/instructure/canvas-lms) course and posts it to a Discord channel of your choice. I plan to implement more features from Canvas as time goes on.
 
 ## Why?
 A school club I'm in has an unofficial Discord, and they frequently have to post new Canvas announcements-- which sparked the idea. They thought it'd be helpful, so I made the first proof of concept in an hour, and polished said concept in five hours.
@@ -10,13 +10,13 @@ A school club I'm in has an unofficial Discord, and they frequently have to post
 2. Go to your Canvas page of choice
 3. Under the "Announcements" tab, open "External Feeds"
 4. Copy the link for "RSS Feed"
-5. Put the link into `"[put-canvas-feed-here]"`
+5. Put the link into `[put-canvas-feed-here]`
 6. Go to your Discord channel's settings
 7. Under the "Integrations" tab, either...
     1. press the "Create Webhook" button
     2. choose "View Webhooks", then press the "New Webhook" button
 8. Copy the webhook URL
-9. Put the URL into `"[put-webhook-url-here]"`
+9. Put the URL into `[put-webhook-url-here]`
 10. `npm ci`
 11. `tsc`
 12. `node index`
@@ -25,11 +25,17 @@ Please be aware that not everything will work; see `COMPATIBILITY.md` for a rund
 
 ## Extras?
 ### Plans
-* Support Canvas API
-* Support multiple Canvas announcement feeds
-* Support Discord bot instead of webhook
-* Support Canvas reply feeds
-* 
+- [ ] Support Canvas API
+- [ ] Support multiple Canvas announcement feeds
+- [ ] Support Discord bot instead of webhook
+- [ ] Support Canvas reply feeds
+- [ ] Support discussions
+- [ ] Support quizzes
+- [ ] Support assignments
+- [ ] Support grades
+- [ ] Support outcomes
+- [ ] Support people
+- [ ] Support BigBlueButton conferences
 
 ### License
     Canvas to Discord

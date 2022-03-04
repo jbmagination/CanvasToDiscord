@@ -1,5 +1,13 @@
 {
-    "canvasFeed": "[put-canvas-feed-here]",
-    "webhookUrl": "[put-webhook-url-here]"
+    "webhook": true,
+    "webhookSettings": {
+        "webhookUrl": "[put-canvas-url-here]"
+    },
+    "canvasSettings": {
+        "canvasFeeds": [
+            {
+                "feedUrl": "[put-canvas-feed-here]"
+            }
+        ]
+    }
 }
-
